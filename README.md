@@ -33,4 +33,4 @@ O calculatorNPS é uma api que calcula o nps através do envio de um email conte
 => Enviar email com a pesquisa para usuário
 => Retornar o resultado do NPS da pesquisa
 
-O projeto conta com testes de integrações.
+O projeto conta com testes de integrações a partir do Jest
