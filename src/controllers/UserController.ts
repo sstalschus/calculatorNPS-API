@@ -4,7 +4,6 @@ import { UsersRepository } from '../repositories/UsersRepository'
 import * as yup from 'yup'
 import { AppError } from '../errors/AppError'
 
-
 class UserController {
 
   async create(req: Request, res: Response) {
@@ -20,7 +19,6 @@ class UserController {
     } catch (error) {
       throw new AppError(error)
     }
-
 
     const usersRepository = getCustomRepository(UsersRepository)
 
